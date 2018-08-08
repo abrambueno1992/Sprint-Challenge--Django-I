@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Display from './Display';
+import Login from './Login';
 // import moduleName from 'module'
 const main = {
   textAlign: 'center'
@@ -48,6 +49,7 @@ class MainDisplay extends Component {
 
         <button onClick={this.handleRefresh}>
           Check render</button>
+        <Login />
         {this.state.notes.map((each,i) => <Display key={each + i} note={each} />)}
       </div>
     )
