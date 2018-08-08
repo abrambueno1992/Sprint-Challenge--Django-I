@@ -7,6 +7,9 @@ class Login extends Component {
         this.state = {
             username: '',
             password: '',
+            title: '',
+            note: '',
+            url:'',
             token: '',
             cookie: ''
         }
@@ -20,50 +23,37 @@ class Login extends Component {
         e.preventDefault();
         console.log(this.state.username)
         console.log(this.state.password)
+        // const obj = {
+        //     username: this.state.username,
+        //     password: this.state.password
+        // }
         const obj = {
-            username: this.state.username,
-            password: this.state.password
+            'title' : this.state.title,
+            'content' : this.state.content,
+            'url' : this.state.url
         }
         this.handleSubmit(obj)
 
     }
 
     handleSubmit = (obj) => {
+        const token = 'Token 9d7ed1c1b05ce411ba5dd1184e3cffe307d10937'
         const ROOT_URL = "https://sprintdjango.herokuapp.com/"
-        axios.post(`${ROOT_URL}admin/login/?next=/admin/`, obj)
-            .then(res => {
-                console.log("response success", res)
-                
+        const optionTwo = {
+            method: 'POST',
+            headers: { 'content-type': 'application/json', 'Authorization': token },
+            data: obj,
+            url: `${ROOT_URL}api/notes/`,
+        }
+        axios(optionTwo)
+            .then((resp) => {
+                console.log("success", resp)
+                // dispatch({
+                //     type: CREATE_NOTE,
+                //     payload: resp.data
+                // });
             })
-            .catch(err => {
-                console.log("response failed", err)
-                
-            });
-
-
-        //     var reqData = {
-        //         "username": "admin",
-        //         "password": "Abpython",
-        //         "grant_type": "password"
-        //     };
-        //     //var reqData = "username=ganesh&password=123456&grant_type=password";
-        //     axios({
-        //         method: 'post',
-        //         url: `${ROOT_URL}admin/`,
-        //         withCredentials: true,
-        //         crossdomain: true,
-        //         data: Object.keys(reqData).map(key => key + '=' + reqData[key]).join('&'),   
-        //         headers: { 
-        //       "Content-Type": "application/x-www-form-urlencoded"
-        //     //   "Cache-Control": "no-cache"
-        //     //   "Postman-Token": "42e6c291-9a09-c29f-f28f-11872e2490a5"
-        //     }
-        //   }).then(function (response) {
-        //     console.log("Heade With Authentication :" + response);
-        //   })
-        //   .catch(function (error) {
-        //     console.log("Post Error : " +error);
-        //   }); 
+            .catch((err) => console.log("error with axios", err));
     }
     render() {
         // console.log(this.state.username)
@@ -81,6 +71,27 @@ class Login extends Component {
                     placeholder="Please enter a username"
                     name="password"
                     value={this.state.password}
+                    onChange={this.handleInput}
+                />
+                <input
+                    type="text"
+                    placeholder="Please enter a title"
+                    name="title"
+                    value={this.state.title}
+                    onChange={this.handleInput}
+                />
+                <input
+                    type="text"
+                    placeholder="Please enter a content"
+                    name="content"
+                    value={this.state.content}
+                    onChange={this.handleInput}
+                />
+                <input
+                    type="text"
+                    placeholder="Please enter a url"
+                    name="url;"
+                    value={this.state.url}
                     onChange={this.handleInput}
                 />
                 <button onClick={this.handleConfirm}>Print Username</button>
