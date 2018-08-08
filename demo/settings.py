@@ -160,6 +160,7 @@ CORS_ALLOW_METHODS = (
     'POST',
     'PUT',
 )
+CONST_CHECK = True
 CORS_ALLOW_HEADERS = (
     'accept',
     'accept-encoding',
