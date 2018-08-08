@@ -19,9 +19,9 @@ class MainDisplay extends Component {
 
       const optionTwo = {
         method: 'GET',
-        headers: { 'content-type': 'application/json', 'Authorization': token },
+        headers: { 'content-type': 'application/json','Access-Control-Allow-Origin':'*', 'Authorization': token },
         // data: data,
-        url: 'https://sprintdjango.herokuapp.com',
+        url: 'https://sprintdjango.herokuapp.com/api/notes/',
       }
       
       axios(optionTwo)
@@ -39,7 +39,7 @@ class MainDisplay extends Component {
   render() {
     return (
       <div>
-        <h1>Hello from MainDisplay</h1>
+        <h1>Hey from Main</h1>
       </div>
     )
   }
