@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2595d0ff-48c2-4f80-9767-1e112153cc3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/notetakinreact/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notetakinreact/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notetakinreact/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notetakinreact/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notetakinreact/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notetakinreact/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notetakinreact/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notetakinreact/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notetakinreact/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notetakinreact/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notetakinreact/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notetakinreact/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notetakinreact/src/registerServiceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notetakinreact/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotenv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notetakinreact/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/notetakinreact/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notetakinreact/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/notetakinreact/src/components/Login.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="152" column="4" selection-start-line="152" selection-start-column="4" selection-end-line="152" selection-end-column="4" />
+            <state relative-caret-position="755">
+              <caret line="157" column="7" lean-forward="true" selection-start-line="157" selection-start-column="7" selection-end-line="157" selection-end-column="7" />
               <folding>
                 <element signature="e#305#314#0" expanded="true" />
               </folding>
@@ -142,7 +127,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="300">
               <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
@@ -284,10 +269,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="713" y="421" width="1740" height="1298" extended-state="0" />
+    <frame x="1656" y="560" width="1740" height="1298" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2606383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2641844" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -373,7 +358,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="300">
           <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
@@ -383,8 +368,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="152" column="4" selection-start-line="152" selection-start-column="4" selection-end-line="152" selection-end-column="4" />
+        <state relative-caret-position="755">
+          <caret line="157" column="7" lean-forward="true" selection-start-line="157" selection-start-column="7" selection-end-line="157" selection-end-column="7" />
           <folding>
             <element signature="e#305#314#0" expanded="true" />
           </folding>

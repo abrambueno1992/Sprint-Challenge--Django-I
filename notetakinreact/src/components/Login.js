@@ -30,28 +30,40 @@ class Login extends Component {
 
     handleSubmit = (obj) => {
         const ROOT_URL = "https://sprintdjango.herokuapp.com/"
-        axios.post(`${ROOT_URL}admin/`, obj)
+        axios.post(`${ROOT_URL}admin/login/?next=/admin/`, obj)
             .then(res => {
                 console.log("response success", res)
-                // localStorage.setItem('token', res.data.token);
-                // localStorage.setItem('username', res.data.username);
-                // localStorage.setItem('ID', res.data.Id);
-                // localStorage.setItem('expiration', expire);
-                // dispatch({
-                //     type: LOGIN_ACTION,
-                //     payload: res.data.token,
-                //     username: res.data.username,
-                //     Id: res.data.Id,
-                //     expiration: expire// (Math.floor(Date.now() / 1000) + (60*60))
-                // });
-                // history.push('/notes')
+                
             })
             .catch(err => {
                 console.log("response failed", err)
-                // localStorage.removeItem('token');
-                // localStorage.removeItem('username');
-                // dispatch({ type: ERRORS });
+                
             });
+
+
+        //     var reqData = {
+        //         "username": "admin",
+        //         "password": "Abpython",
+        //         "grant_type": "password"
+        //     };
+        //     //var reqData = "username=ganesh&password=123456&grant_type=password";
+        //     axios({
+        //         method: 'post',
+        //         url: `${ROOT_URL}admin/`,
+        //         withCredentials: true,
+        //         crossdomain: true,
+        //         data: Object.keys(reqData).map(key => key + '=' + reqData[key]).join('&'),   
+        //         headers: { 
+        //       "Content-Type": "application/x-www-form-urlencoded"
+        //     //   "Cache-Control": "no-cache"
+        //     //   "Postman-Token": "42e6c291-9a09-c29f-f28f-11872e2490a5"
+        //     }
+        //   }).then(function (response) {
+        //     console.log("Heade With Authentication :" + response);
+        //   })
+        //   .catch(function (error) {
+        //     console.log("Post Error : " +error);
+        //   }); 
     }
     render() {
         // console.log(this.state.username)
