@@ -8,6 +8,7 @@ class Login extends Component {
             username: '',
             password: '',
             title: '',
+            content: '',
             note: '',
             url:'',
             token: '',
@@ -32,7 +33,9 @@ class Login extends Component {
             'content' : this.state.content,
             'url' : this.state.url
         }
-        this.handleSubmit(obj)
+        this.handleSubmit(obj);
+        this.props.reloadNotes();
+        this.setState({username: '', title: '', password: '', note: '', content: '' })
 
     }
 
@@ -59,7 +62,7 @@ class Login extends Component {
         // console.log(this.state.username)
         return (
             <div>
-                <input
+                {/* <input
                     type="text"
                     placeholder="Please enter a username"
                     name="username"
@@ -68,11 +71,11 @@ class Login extends Component {
                 />
                 <input
                     type="password"
-                    placeholder="Please enter a username"
+                    placeholder="Please enter a password"
                     name="password"
                     value={this.state.password}
                     onChange={this.handleInput}
-                />
+                /> */}
                 <input
                     type="text"
                     placeholder="Please enter a title"

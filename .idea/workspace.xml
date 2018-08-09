@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2595d0ff-48c2-4f80-9767-1e112153cc3d" name="Default Changelist" comment="" />
+    <list default="true" id="2595d0ff-48c2-4f80-9767-1e112153cc3d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/notetakinreact/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/notetakinreact/src/components/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notetakinreact/src/components/MainDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/notetakinreact/src/components/MainDisplay.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1820">
-              <caret line="153" column="1" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
+            <state relative-caret-position="162">
+              <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
               <folding>
                 <element signature="e#305#314#0" expanded="true" />
               </folding>
@@ -67,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/demo/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#628#660#0" expanded="true" />
               </folding>
@@ -266,10 +269,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1326" y="756" width="1740" height="1298" extended-state="0" />
+    <frame x="2019" y="247" width="1740" height="1335" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2641844" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2677305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -310,9 +313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -357,7 +357,7 @@
     <entry file="file://$PROJECT_DIR$/demo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#628#660#0" expanded="true" />
           </folding>
@@ -378,8 +378,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1820">
-          <caret line="153" column="1" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
+        <state relative-caret-position="162">
+          <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
           <folding>
             <element signature="e#305#314#0" expanded="true" />
           </folding>

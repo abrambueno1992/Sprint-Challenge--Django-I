@@ -49,7 +49,7 @@ class MainDisplay extends Component {
 
         <button onClick={this.handleRefresh}>
           Check render</button>
-        <Login />
+        <Login reloadNotes={this.getAllNotes} />
         {this.state.notes.map((each,i) => <Display key={each + i} note={each} />)}
       </div>
     )
