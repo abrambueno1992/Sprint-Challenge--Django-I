@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2595d0ff-48c2-4f80-9767-1e112153cc3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/notetakinreact/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/notetakinreact/src/components/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notetakinreact/src/components/MainDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/notetakinreact/src/components/MainDisplay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/migrations/0002_note_url.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/migrations/0003_auto_20180731_1652.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/migrations/0004_auto_20180731_1652.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/migrations/0005_auto_20180731_1653.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/migrations/0006_personalnote.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/views.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,50 +105,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notes/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notes/views.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notes/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notes/apps.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notes/api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DeploymentExperiences">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -199,11 +167,6 @@
               <item name="Sprint-Challenge--Django-I" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sprint-Challenge--Django-I" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sprint-Challenge--Django-I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sprint-Challenge--Django-I" type="462c0819:PsiDirectoryNode" />
-              <item name="notes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
